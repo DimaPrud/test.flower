@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fbd521fd-f335-4cdb-93d2-79d3ef834ef0" name="test.flower-bottle.ru (2)" url="http://test.flower-bottle.ru">
+        <fileTransfer rootFolder="/var/www/flower-bottle/data/www/test.flower-bottle.ru" accessType="SFTP" host="185.20.224.67" port="22" sshConfigId="e4f29d20-86f7-446f-9e60-c3812dfa3f77" sshConfig="flower-bottle@185.20.224.67:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
