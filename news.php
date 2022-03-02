@@ -6,10 +6,20 @@ ini_set ("display_errors", "on");
 ?>
 
             <section class="news">
+                <div class="body">
+                <?php
+                if (file_exists(__DIR__ . "/modelNews.php")) {
+                    include __DIR__ . "/modelNews.php";
+                } else {
+                    echo "Fack";
+                    throw new Exception('File not found ' . ((int)__LINE__ - 3) . ' ' . __FILE__ );
 
+                }
+                ?>
+                </div>
             </section>
             <footer class="navigation">
-                <a href="index.php">Все новости >></a>
+                <a href="http://test.flower-bottle.ru/index.php/id0-5">Все новости >></a>
             </footer>
         </div>
     </body>

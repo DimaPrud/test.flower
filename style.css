@@ -1,0 +1,121 @@
+#body {
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEEE;
+    font-family: "Arial";
+}
+
+.content {
+    margin: 40px 60px 150px 70px;
+    padding: 10px;
+    padding-right: 10px;
+    background-color: #FFFFFF;
+    border: 2px #555555;
+}
+
+.date {
+    background-color: #80065a;
+    float: left;
+    color: #FFFFFF;
+    margin: 4px 5px 0 0;
+    padding: 3px 7px 3px 7px;
+}
+
+#headname h1 {
+    padding-bottom: 0;
+    border-bottom: 1px dashed;
+    position: relative;
+    width: 98.5%;
+    left: 5px;
+}
+
+.title {
+    border-bottom: 1px dashed;
+    padding-top: 20px;
+    padding-left: 5px;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+.news {
+    border-bottom: 1px dashed;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.newss {
+    border-bottom: 1px dashed;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 5px;
+}
+
+/**/
+.bodys p {
+    display: none;
+}
+.bodys .date {
+    display: block;
+}
+
+.bodys .minitext {
+    display: block;
+    font-size: 20.6px;
+}
+/**/
+
+.news p {
+    margin-bottom: 0;
+}
+
+.navigation {
+    font-size: 22px;
+    padding: 5px 5px 20px 5px;
+}
+
+.click {
+    float: left;
+    padding: 5px;
+    margin: 2px;
+    display: block;
+    background-color: #DDDDDD;
+    border: 1px #555555;
+    width: 36px;
+    height: 12px;
+    text-align: center;
+}
+
+.footerClick {
+    display: table;
+    position: relative;
+    text-decoration: none;
+}
+
+.footerClick a:-webkit-any-link {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    position: relative;
+    top: -8px;
+    border: 1px #555555;
+}
+
+.footerH {
+    margin: 5px;
+}
+
+.bodys .nameNews {
+    padding-bottom: 0;
+    margin-bottom: 7px;
+    font-size: 23px;
+    display: block;
+}
+
+.minitext {
+    margin-top: 0;
+}
+
+#mainTitle {
+    margin-top: 0;
+}

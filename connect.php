@@ -23,7 +23,7 @@ return self::$instances[$cls];
 
 public static function links(): bool|mysqli|null
 {
-    $host = '185.20.224.67';
+    $host = 'localhost';
     $user = 'test';
     $pass = 'test12345';
     $db_name = 'news2';
@@ -32,3 +32,18 @@ return mysqli_connect($host, $user, $pass, $db_name);
 }
 
 $link = Singleton::links();
+
+
+//class connect
+//{
+//    public static function links(): bool|mysqli|null
+//    {
+//        $host = '185.20.224.67';
+//        $user = 'test';
+//        $pass = 'test12345';
+//        $db_name = 'news2';
+//        return mysqli_connect($host, $user, $pass, $db_name);
+//    }
+//}
+//
+//$link = connect::links();

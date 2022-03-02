@@ -2,11 +2,12 @@
 <html lang="ru">
     <head>
         <title>Новости</title>
+        <meta charset="utf8">
+<!--        <meta charset="utf8mb4">-->
 <!--        <meta charset="UTF-8">-->
-        <meta http-equiv="content-type" content="text/html; charset=windows-1251">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="http://test.flower-bottle.ru/style.css">
         <script src="script.js"></script>
     </head>
-    <body>
+    <body id="body">
         <div class="content">
