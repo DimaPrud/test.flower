@@ -8,47 +8,54 @@
 .content {
     margin: 40px 60px 150px 70px;
     padding: 10px;
-    padding-right: 10px;
     background-color: #FFFFFF;
-    border: 2px #555555;
+    border: 1px solid #CCCCCC;
+}
+.body {
+    border-bottom: 1px dotted;
 }
 
 .date {
-    background-color: #80065a;
+    background-color: #9a2373;
     float: left;
     color: #FFFFFF;
     margin: 4px 5px 0 0;
     padding: 3px 7px 3px 7px;
+    position: relative;
+    top: -3px;
 }
 
 #headname h1 {
     padding-bottom: 0;
-    border-bottom: 1px dashed;
+    border-bottom: 1px dotted;
     position: relative;
     width: 98.5%;
     left: 5px;
 }
 
 .title {
-    border-bottom: 1px dashed;
-    padding-top: 20px;
-    padding-left: 5px;
-    margin-bottom: 0;
+    border-bottom: 1px dotted;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 5px 5px 0 5px;
     font-size: 40px;
 }
 
 .news {
-    border-bottom: 1px dashed;
+
     font-size: 20px;
-    margin: 0;
+
     padding-left: 5px;
+    padding-right: 5px;
 }
 
 .newss {
-    border-bottom: 1px dashed;
+
     font-size: 20px;
     margin: 0;
     padding-left: 5px;
+    padding-right: 5px;
+
 }
 
 /**/
@@ -79,9 +86,9 @@
     padding: 5px;
     margin: 2px;
     display: block;
-    background-color: #DDDDDD;
-    border: 1px #555555;
-    width: 36px;
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    width: 34.8px;
     height: 12px;
     text-align: center;
 }
@@ -90,6 +97,7 @@
     display: table;
     position: relative;
     text-decoration: none;
+    width: 101.6%;
 }
 
 .footerClick a:-webkit-any-link {
@@ -98,17 +106,17 @@
     font-size: 16px;
     position: relative;
     top: -8px;
-    border: 1px #555555;
 }
 
 .footerH {
     margin: 5px;
+    font-size: 22px;
 }
 
 .bodys .nameNews {
     padding-bottom: 0;
     margin-bottom: 7px;
-    font-size: 23px;
+    font-size: 22px;
     display: block;
 }
 
@@ -118,4 +126,17 @@
 
 #mainTitle {
     margin-top: 0;
+}
+
+.hNews {
+    display: block;
+    position: relative;
+}
+
+i {
+    font-style: normal;
+}
+
+.bodys {
+    border-bottom: 1px dotted;
 }

@@ -21,7 +21,7 @@ $db = new PDO('mysql:host=185.20.224.67;dbname=news2;', 'test', 'test12345', $op
 
 $db->query("SET NAMES 'utf8';");
 $url = $_SERVER['REQUEST_URI'];
-$id = substr($url, 12);
+$id = substr($url, 13);
 
 
 $sql = "SELECT * FROM news WHERE id = $id";
@@ -29,8 +29,7 @@ $pdo = $db->query($sql, PDO::PARAM_STR_CHAR);
 
 if ($result = $pdo) {
     foreach ($pdo as $conclusion) {
-        echo "<p class='title'><i>" . $conclusion["title"] . "</i></p>" . "<br />" .
-            "<p class='contentnews'>" . $conclusion["content"] . "</p>" . "<br />";
+        echo "<p class='title'><i>" . $conclusion["title"] . "</i></p><p class='contentnews'>" . $conclusion["content"] . "</p>";
     }
 } else {
     echo "Не работает";

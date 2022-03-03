@@ -26,23 +26,31 @@ $db->query("SET NAMES 'utf8';");
 //
 
 $url = $_SERVER['REQUEST_URI'];
-$urll = strripos($url, "/");
-$num = substr($url, 13);
-$limit = explode("-", $num);
-$limit_min = $limit[0];
+$page = str_replace("/index.php?page=", "", $url);
+$limit_min = ($page - 1) * 5;
 $limit_max = 5;
+?>
+    <style>
+        .footerClick #a<?= $page?>{
+            background-color: #9a2373;
+        }
+        .footerClick #a<?= $page?> a:-webkit-any-link {
+            color: #FFFFFF;
+        }
+    </style>
+<?php
 //
-
 $sql = "SELECT * FROM `news` ORDER BY `idate` DESC LIMIT $limit_min, $limit_max";
 //
 $pdo = $db->query($sql, PDO::PARAM_STR_CHAR);
 
 if ($result = $pdo) {
     foreach ($pdo as $conclusion) {
-        echo "<p class='date'>" . date('d.m.Y', $conclusion["idate"]) . "<br /></p>
-            <p class='nameNews'><a href='http://test.flower-bottle.ru/news.php/id" . $conclusion["id"] . "'>"
-        . $conclusion["title"] . "</a></p>
+        echo "<div class='hNews'><p class='date'>" . date('d.m.Y', $conclusion["idate"]) . "</p>
+            <p class='nameNews'><a href='http://test.flower-bottle.ru/news.php?id=" . $conclusion["id"] . "'>"
+        . $conclusion["title"] . "</a></p></div>
         <p class='minitext'>" . $conclusion["announce"] . "</p>";
+
     }
 
 } else {

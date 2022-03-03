@@ -22,14 +22,14 @@ $str_num = ceil($count_num / 5);
 //
 
 $i = 1;
-$limit_max = 5;
-$limit_min = 0;
 while ($i<=$str_num) {
-    echo "<p class='click'><a href='http://test.flower-bottle.ru/index.php/id" . "$limit_min-$limit_max" . "'>" . $i . "</a></p>" . " ";
+    ?>
+
+<?php
+    echo "<p class='click' id='a$i'><a href='http://test.flower-bottle.ru/index.php?page=" . "$i" . "'>" . $i . "</a></p>" . " ";
     $i++;
-    $limit_max = $limit_max + 5;
-    $limit_min = $limit_min + 5;
 }
+
 
 
 

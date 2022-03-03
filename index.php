@@ -38,6 +38,7 @@ if (file_exists(__DIR__ . "/header.php")) {
 
                 }
                 ?>
+
                 </div>
             </footer>
         </div>
