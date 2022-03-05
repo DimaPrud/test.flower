@@ -3,38 +3,41 @@
 error_reporting(E_ALL);
 ini_set ("display_errors", "on");
 
-include "footerNav.php";
-
-//$host = '185.20.224.67';
-//$user = 'test';
-//$pass = 'test12345';
-//$db_name = 'news2';
-//$dns = "mysql:host=$pass;dbname=$db_name;";
-
-//
-$options = array(
-    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
-    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
-);
-
-//$db = mysqli_connect($host, $user, $pass, $db_name);
-//$db = mysqli_connect($host, $user, $pass, $db_name);
-$db = new PDO('mysql:host=185.20.224.67;dbname=news2;', 'test', 'test12345', $options);
-
-//mysqli_query($db,"SET NAMES 'utf8';");
-$db->query("SET NAMES 'utf8';");
-//
+include "connect.php";
+include "count.php";
+include "404.php";
 
 $url = $_SERVER['REQUEST_URI'];
-$page = str_replace("/index.php?page=", "", $url);
+
+if(!empty($_GET['page'])) {
+    $page = $_GET['page'];
+    if($page === "1") {
+        // Переход на первую страницу
+        header("Location:/news.php");
+    }
+} else {
+    $page = 1;
+}
+
+if(!is_numeric($page)) {
+    // если страница не номер
+    notFound();
+} else if (is_numeric($page) && $page < 1) {
+    // если страница меньше 1
+    notFound();
+} else if ($str_num < $page) {
+    // если страница больше кол-ва страниц
+    notFound();
+}
+
 $limit_min = ($page - 1) * 5;
 $limit_max = 5;
+
+include "footerNav.php";
 ?>
     <style>
-        .footerClick #a<?= $page?>{
+        .action, .action a:-webkit-any-link {
             background-color: #9a2373;
-        }
-        .footerClick #a<?= $page?> a:-webkit-any-link {
             color: #FFFFFF;
         }
     </style>
@@ -47,13 +50,15 @@ $pdo = $db->query($sql, PDO::PARAM_STR_CHAR);
 if ($result = $pdo) {
     foreach ($pdo as $conclusion) {
         echo "<div class='hNews'><p class='date'>" . date('d.m.Y', $conclusion["idate"]) . "</p>
-            <p class='nameNews'><a href='http://test.flower-bottle.ru/news.php?id=" . $conclusion["id"] . "'>"
+            <p class='nameNews'><a href='http://test.flower-bottle.ru/view.php?id=" . $conclusion["id"] . "'>"
         . $conclusion["title"] . "</a></p></div>
         <p class='minitext'>" . $conclusion["announce"] . "</p>";
 
     }
 
 } else {
-    // @TODO add exception
-    echo "Не работает";
+    throw new Exception('Нихрена не найдено');
+    header('HTTP/1.1 404 Not Found');
+    echo 'Страница не найдена';
+    exit();
 }

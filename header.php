@@ -7,7 +7,6 @@
 <!--        <meta charset="UTF-8">-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="http://test.flower-bottle.ru/style.css">
-        <script src="script.js"></script>
     </head>
     <body id="body">
         <div class="content">
