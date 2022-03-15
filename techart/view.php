@@ -1,8 +1,14 @@
 <?php
 
-include_once "header.php";
 error_reporting(E_ALL);
 ini_set ("display_errors", "on");
+
+if (file_exists(__DIR__ . "/header.php")) {
+    include __DIR__ . "/header.php";
+} else {
+    throw new Exception('File not found ' . ((int)__LINE__ - 3) . ' ' . __FILE__ );
+
+}
 ?>
 
             <section class="news">
@@ -11,7 +17,6 @@ ini_set ("display_errors", "on");
                 if (file_exists(__DIR__ . "/modelNews.php")) {
                     include __DIR__ . "/modelNews.php";
                 } else {
-                    echo "Fack";
                     throw new Exception('File not found ' . ((int)__LINE__ - 3) . ' ' . __FILE__ );
 
                 }
@@ -19,7 +24,7 @@ ini_set ("display_errors", "on");
                 </div>
             </section>
             <footer class="navigation">
-                <a href="http://test.flower-bottle.ru/techard/news.php?page=1">Все новости >></a>
+                <a href="http://test.flower-bottle.ru/techart/news.php">Все новости >></a>
             </footer>
         </div>
     </body>

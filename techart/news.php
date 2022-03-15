@@ -5,7 +5,6 @@ ini_set ("display_errors", "on");
 if (file_exists(__DIR__ . "/header.php")) {
     include __DIR__ . "/header.php";
 } else {
-    echo "Fack";
     throw new Exception('File not found ' . ((int)__LINE__ - 3) . ' ' . __FILE__ );
 }
 ?>
@@ -19,7 +18,6 @@ if (file_exists(__DIR__ . "/header.php")) {
                 if (file_exists(__DIR__ . "/maneModel.php")) {
                     include __DIR__ . "/maneModel.php";
                 } else {
-                    echo "Fack";
                     throw new Exception('File not found ' . ((int)__LINE__ - 3) . ' ' . __FILE__ );
 
                 }
@@ -33,7 +31,6 @@ if (file_exists(__DIR__ . "/header.php")) {
                 if (file_exists(__DIR__ . "/footerNav.php")) {
                     include __DIR__ . "/footerNav.php";
                 } else {
-                    echo "Fack";
                     throw new Exception('File not found ' . ((int)__LINE__ - 3) . ' ' . __FILE__ );
 
                 }

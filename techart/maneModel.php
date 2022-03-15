@@ -6,6 +6,7 @@ ini_set ("display_errors", "on");
 include "connect.php";
 include "count.php";
 include "404.php";
+include "footerNav.php";
 
 $url = $_SERVER['REQUEST_URI'];
 
@@ -33,7 +34,7 @@ if(!is_numeric($page)) {
 $limit_min = ($page - 1) * 5;
 $limit_max = 5;
 
-include "footerNav.php";
+
 ?>
     <style>
         .action, .action a:-webkit-any-link {
@@ -50,7 +51,7 @@ $pdo = $db->query($sql, PDO::PARAM_STR_CHAR);
 if ($result = $pdo) {
     foreach ($pdo as $conclusion) {
         echo "<div class='hNews'><p class='date'>" . date('d.m.Y', $conclusion["idate"]) . "</p>
-            <p class='nameNews'><a href='http://test.flower-bottle.ru/techard/view.php?id=" . $conclusion["id"] . "'>"
+            <p class='nameNews'><a href='http://test.flower-bottle.ru/techart/view.php?id=" . $conclusion["id"] . "'>"
         . $conclusion["title"] . "</a></p></div>
         <p class='minitext'>" . $conclusion["announce"] . "</p>";
 
