@@ -1,17 +1,22 @@
 #название образа
-FROM php
+FROM iojs
 
 #куда сохранить образ
 WORKDIR /test.flower-bottle
 
 #запуск приложения
-RUN npm install
+#RUN npm install
 
 #что сохранить в образ
-COPY . test.flower-bottle
+COPY .. .
+
+ENV PORT 80
 
 #выберает порт для запуска образа
 EXPOSE 80
 
+VOLUME ["/test.flower-bottle"]
+
 #что именно запускать
-CMD ["php", "docker_test.php"]
+CMD ["iojs", "docker_test.php"]
+

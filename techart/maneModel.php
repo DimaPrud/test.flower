@@ -50,7 +50,7 @@ $pdo = $db->query($sql, PDO::PARAM_STR_CHAR);
 if ($result = $pdo) {
     foreach ($pdo as $conclusion) {
         echo "<div class='hNews'><p class='date'>" . date('d.m.Y', $conclusion["idate"]) . "</p>
-            <p class='nameNews'><a href='http://test.flower-bottle.ru/view.php?id=" . $conclusion["id"] . "'>"
+            <p class='nameNews'><a href='http://test.flower-bottle.ru/techard/view.php?id=" . $conclusion["id"] . "'>"
         . $conclusion["title"] . "</a></p></div>
         <p class='minitext'>" . $conclusion["announce"] . "</p>";
 

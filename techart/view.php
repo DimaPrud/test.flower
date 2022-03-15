@@ -19,7 +19,7 @@ ini_set ("display_errors", "on");
                 </div>
             </section>
             <footer class="navigation">
-                <a href="http://test.flower-bottle.ru/news.php?page=1">Все новости >></a>
+                <a href="http://test.flower-bottle.ru/techard/news.php?page=1">Все новости >></a>
             </footer>
         </div>
     </body>
