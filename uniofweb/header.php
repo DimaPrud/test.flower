@@ -17,44 +17,44 @@
                     <ul>
                         <li class="rightP" id="rP1"><a class="rightPS">Оставить заявку</a>
                             <ul class="top">
-                                <li><input type="text" placeholder=" ФИО"></li>
-                                <li><input type="text" placeholder=" Телефон"></li>
+                                <li><input type="text" placeholder="  ФИО"></li>
+                                <li><input type="text" placeholder="  Телефон"></li>
                                 <li><div class="select" id="select1">
-                                        <select name="post">
-                                            <option>Репетитор</option>
-                                            <option>Гувернантка</option>
-                                            <option>Няня</option>
-                                            <option>Водитель</option>
-                                            <option>Садовник</option>
+                                        <select name="post" class="graf">
+                                            <option class="graf1"> Репетитор</option>
+                                            <option class="graf1"> Гувернантка</option>
+                                            <option class="graf1"> Няня</option>
+                                            <option class="graf1"> Водитель</option>
+                                            <option class="graf1"> Садовник</option>
                                         </select>
                                     </div></li>
                                 <li><div class="select" id="select2">
-                                        <select name="graf">
-                                            <option class="graf">Полный день</option>
-                                            <option class="graf">Пол дня</option>
-                                            <option class="graf">График работы</option>
-                                            <option class="graf">несколько часов</option>
-                                            <option class="graf">Круглосуточно</option>
+                                        <select name="graf" class="graf">
+                                            <option class="graf1"> Полный день</option>
+                                            <option class="graf1"> Пол дня</option>
+                                            <option class="graf1"> График работы</option>
+                                            <option class="graf1"> Несколько часов</option>
+                                            <option class="graf1"> Круглосуточно</option>
                                         </select>
                                     </div></li>
-                                <li><input type="text" placeholder=" Дополнительная информация"></li>
+                                <li><textarea type="text" placeholder=" Дополнительная информация" class="text"></textarea></li>
                                 <li><input type="submit" placeholder="ОТПРАВИТЬ" id="submitT"></li>
                             </ul>
                         </li>
                         <li class="rightP" id="rP2"><a class="rightPS">Оставить резюме</a>
                             <ul class="bottom">
                                 <li><input type="text" placeholder=" ФИО"></li>
-                                <li><input type="number" placeholder=" Телефон"></li>
+                                <li><input type="tel" placeholder=" Телефон"></li>
                                 <li><div class="select" id="select" placeholder=" Должность">
                                         <select name="graf">
-                                            <option class="graf">Репетитор</option>
-                                            <option class="graf">Гувернантка</option>
-                                            <option class="graf">Няня</option>
-                                            <option class="graf">Водитель</option>
-                                            <option class="graf">Садовник</option>
+                                            <option class="graf1">Репетитор</option>
+                                            <option class="graf1">Гувернантка</option>
+                                            <option class="graf1">Няня</option>
+                                            <option class="graf1">Водитель</option>
+                                            <option class="graf1">Садовник</option>
                                         </select>
                                     </div></li>
-
+                                <li><input type="text" placeholder=" Образование" </li>
                                 <li><input type="text" placeholder=" Прикрепить резюме"></li>
                                 <li><input type="submit" placeholder="ОТПРАВИТЬ" id="submitT2"></li>
                             </ul>
