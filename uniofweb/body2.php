@@ -14,13 +14,22 @@ if (file_exists(__DIR__ . "/header.php")) {
     <div class="body2Input">
         <div class="inputSelect">
             <p>Показать только</p>
-            <select name="graf2" class="graf2">
-                <option class="graf22">Няня</option>
-                <option class="graf22">Гувернантка</option>
-                <option class="graf22">Дворник</option>
-                <option class="graf22">Водитель</option>
-                <option class="graf22">Садовник</option>
-            </select>
+            <label for="selectA" class="selectA">
+                <input type="radio" name="list" value="not_changed" id="selectA" class="inputA">
+                <div class="itemsA">
+                    <input type="radio" name="list" value="first_value" id="list[15]" class="inputA">
+                    <label for="list[15]"> Репетитор</label>
+                    <input type="radio" name="list" value="second_value" id="list[16]" class="inputA">
+                    <label for="list[16]"> Гувернантка</label>
+                    <input type="radio" name="list" value="second_value" id="list[17]" class="inputA">
+                    <label for="list[17]"> Няня</label>
+                    <input type="radio" name="list" value="second_value" id="list[18]" class="inputA">
+                    <label for="list[18]"> Водитель</label>
+                    <input type="radio" name="list" value="second_value" id="list[19]" class="inputA">
+                    <label for="list[19]"> Садовник</label>
+                    <span id="textA">Должность</span>
+                </div>
+            </label>
         </div>
         <div class="numberSet">
         <div><p class="pStag">Стаж</p> <p>от</p> <input type="tel" class="number" value="1"> <p>до</p> <input type="tel" class="number" value="30"> <p>лет</p></div>

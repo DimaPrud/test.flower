@@ -5,7 +5,6 @@
     <meta charset="utf8">
     <link rel="stylesheet" href="http://test.flower-bottle.ru/uniofweb/style.css">
     <script src="script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <?php include "js.php"?>
 </head>
 <body id="body">
@@ -18,25 +17,39 @@
                         <li class="rightP" id="rP1"><a class="rightPS">Оставить заявку</a>
                             <ul class="top">
                                 <li><input type="text" placeholder="  ФИО"></li>
-                                <li><input type="text" placeholder="  Телефон"></li>
-                                <li><div class="select" id="select1">
-                                        <select name="post" class="graf">
-                                            <option class="graf1"> Репетитор</option>
-                                            <option class="graf1"> Гувернантка</option>
-                                            <option class="graf1"> Няня</option>
-                                            <option class="graf1"> Водитель</option>
-                                            <option class="graf1"> Садовник</option>
-                                        </select>
-                                    </div></li>
-                                <li><div class="select" id="select2">
-                                        <select name="graf" class="graf">
-                                            <option class="graf1"> Полный день</option>
-                                            <option class="graf1"> Пол дня</option>
-                                            <option class="graf1"> График работы</option>
-                                            <option class="graf1"> Несколько часов</option>
-                                            <option class="graf1"> Круглосуточно</option>
-                                        </select>
-                                    </div></li>
+                                <li><input type="tel" placeholder="  Телефон"></li>
+                                <li><label for="select" class="selectY">
+                                        <input type="radio" name="list" value="not_changed" id="select" class="inputY">
+                                        <div class="items">
+                                            <input type="radio" name="list" value="first_value" id="list[0]" class="inputY">
+                                            <label for="list[0]"> Репетитор</label>
+                                            <input type="radio" name="list" value="second_value" id="list[1]" class="inputY">
+                                            <label for="list[1]"> Гувернантка</label>
+                                            <input type="radio" name="list" value="second_value" id="list[2]" class="inputY">
+                                            <label for="list[2]"> Няня</label>
+                                            <input type="radio" name="list" value="second_value" id="list[3]" class="inputY">
+                                            <label for="list[3]"> Водитель</label>
+                                            <input type="radio" name="list" value="second_value" id="list[4]" class="inputY">
+                                            <label for="list[4]"> Садовник</label>
+                                            <span id="textY">Должность</span>
+                                        </div>
+                                    </label></li>
+                                <li><label for="selectX" class="selectX">
+                                        <input type="radio" name="list" value="not_changed" id="selectX" class="inputX">
+                                        <div class="itemsX">
+                                            <input type="radio" name="list" value="first_value" id="list[5]" class="inputX">
+                                            <label for="list[5]"> Полный день</label>
+                                            <input type="radio" name="list" value="second_value" id="list[6]" class="inputX">
+                                            <label for="list[6]"> Пол дня</label>
+                                            <input type="radio" name="list" value="second_value" id="list[7]" class="inputX">
+                                            <label for="list[7]"> График работы</label>
+                                            <input type="radio" name="list" value="second_value" id="list[8]" class="inputX">
+                                            <label for="list[8]"> Несколько часов</label>
+                                            <input type="radio" name="list" value="second_value" id="list[9]" class="inputX">
+                                            <label for="list[9]"> Круглосуточно</label>
+                                            <span id="textX">График работы</span>
+                                        </div>
+                                    </label></li>
                                 <li><textarea type="text" placeholder=" Дополнительная информация" class="text"></textarea></li>
                                 <li><input type="submit" placeholder="ОТПРАВИТЬ" id="submitT"></li>
                             </ul>
@@ -45,15 +58,22 @@
                             <ul class="bottom">
                                 <li><input type="text" placeholder=" ФИО"></li>
                                 <li><input type="tel" placeholder=" Телефон"></li>
-                                <li><div class="select" id="select" placeholder=" Должность">
-                                        <select name="graf">
-                                            <option class="graf1">Репетитор</option>
-                                            <option class="graf1">Гувернантка</option>
-                                            <option class="graf1">Няня</option>
-                                            <option class="graf1">Водитель</option>
-                                            <option class="graf1">Садовник</option>
-                                        </select>
-                                    </div></li>
+                                <li><label for="selectZ" class="selectZ">
+                                        <input type="radio" name="list" value="not_changed" id="selectZ" class="inputZ">
+                                        <div class="itemsZ">
+                                            <input type="radio" name="list" value="first_value" id="list[10]" class="inputZ">
+                                            <label for="list[10]"> Репетитор</label>
+                                            <input type="radio" name="list" value="second_value" id="list[11]" class="inputZ">
+                                            <label for="list[11]"> Гувернантка</label>
+                                            <input type="radio" name="list" value="second_value" id="list[12]" class="inputZ">
+                                            <label for="list[12]"> Няня</label>
+                                            <input type="radio" name="list" value="second_value" id="list[13]" class="inputZ">
+                                            <label for="list[13]"> Водитель</label>
+                                            <input type="radio" name="list" value="second_value" id="list[14]" class="inputZ">
+                                            <label for="list[14]"> Садовник</label>
+                                            <span id="textZ">Должность</span>
+                                        </div>
+                                    </label></li>
                                 <li><input type="text" placeholder=" Образование" </li>
                                 <li><input type="text" placeholder=" Прикрепить резюме"></li>
                                 <li><input type="submit" placeholder="ОТПРАВИТЬ" id="submitT2"></li>
@@ -114,11 +134,3 @@
                 <input type="radio" name="radio" class="navInput" id="i5" oninput=action5()>
                 <input type="radio" name="radio" class="navInput" id="i6" oninput=action6()>
             </nav>
-
-
-<!--            <input type="radio" name="radio" checked class="navInput" id="i1"  oninput=action1()blur2()blur3()blur4()blur5()blur6()>-->
-<!--            <input type="radio" name="radio" class="navInput" id="i2" oninput=action2()blur3()blur4()blur5()blur6()>-->
-<!--            <input type="radio" name="radio" class="navInput" id="i3" oninput=action3()blur4()blur5()blur6()>-->
-<!--            <input type="radio" name="radio" class="navInput" id="i4" oninput=action4()blur5()blur6()>-->
-<!--            <input type="radio" name="radio" class="navInput" id="i5" oninput=action5()blur6()>-->
-<!--            <input type="radio" name="radio" class="navInput" id="i6" oninput=action6()>-->
