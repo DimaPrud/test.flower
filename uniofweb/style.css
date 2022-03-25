@@ -148,7 +148,7 @@
                                         #submitT {
                                             text-align: center;
                                             position: relative;
-                                            bottom: -0px;
+                                            bottom: -10px;
                                             width: 142px;
                                             height: 28px;
                                             background: rgb(231,190,132);
@@ -522,9 +522,10 @@
                     display: table;
                     width: 804px;
                     height: 280px;
-                    left: 0;
+                    left: 5px;
                     margin: 0 60px 0 60px;
                     padding-top: 20px;
+
                 }
 
                 .bodyBI {
@@ -1112,7 +1113,7 @@
 #textY {
     position: absolute;
     display: block;
-    top: 10px;
+    top: 5px;
     padding-left: 5px;
     font: 16px Verdana;
 }
@@ -1154,6 +1155,7 @@
 .selectY input[name="list"]:not(:checked) ~ #textY {
     color: #55493f;
     background: white;
+    padding-left: 10px;
 }
 
 .selectY input[name="list"]:checked ~ #textY {
@@ -1181,6 +1183,9 @@
     font: 16px Verdana;
     padding-top: 7px;
     text-align: left;
+    margin-left: 0;
+    position: relative;
+    left: -10px;
 }
 
 .items label:hover {
@@ -1217,7 +1222,7 @@
 #textX {
     position: absolute;
     display: block;
-    top: 10px;
+    top: 5px;
     padding-left: 5px;
     font: 16px Verdana;
 }
@@ -1259,6 +1264,7 @@
 .selectX input[name="list"]:not(:checked) ~ #textX {
     color: #55493f;
     background: white;
+    padding-left: 10px;
 }
 
 .selectX input[name="list"]:checked ~ #textX {
@@ -1286,6 +1292,8 @@
     font: 16px Verdana;
     padding-top: 7px;
     text-align: left;
+    position: relative;
+    left: -10px;
 }
 
 .itemsX label:hover {
@@ -1322,7 +1330,7 @@
 #textZ {
     position: absolute;
     display: block;
-    top: 10px;
+    top: 5px;
     padding-left: 5px;
     font: 16px Verdana;
 }
@@ -1364,6 +1372,7 @@
 .selectZ input[name="list"]:not(:checked) ~ #textZ {
     color: #55493f;
     background: white;
+    padding-left: 10px;
 }
 
 .selectZ input[name="list"]:checked ~ #textZ {
@@ -1391,6 +1400,8 @@
     font: 16px Verdana;
     padding-top: 7px;
     text-align: left;
+    position: relative;
+    left: -10px;
 }
 
 .itemsZ label:hover {
@@ -1430,7 +1441,8 @@
     top: 0px;
     font-size: 18px;
     font-family: "Verdana", sans-serif;
-    padding-left: 5px;
+    padding-left: 10px;
+    padding-right: 70px;
 }
 
 .selectA {
@@ -1459,7 +1471,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    z-index: 2;
+    z-index: 100;
     width: 30px;
     height: 30px;
     line-height: 26px;
@@ -1488,6 +1500,7 @@
     width: 200px;
     cursor: pointer;
     border: 1px solid #b1b1b1;
+    background-color: #fcebc6;
 }
 
 .itemsA label {
@@ -1501,6 +1514,7 @@
     padding-top: 7px;
     text-align: left;
     font-size: 18px;
+    z-index: 99;
 }
 
 .itemsA label:hover {
