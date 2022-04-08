@@ -227,7 +227,7 @@
             <div class="section_content container-6">
                 <div class="section_container-6_element row" for="slider1">
                     <div class="col-lg-6 col-sm-12">
-                        <h4>Руководство компании</h4>
+                        <h4 class="fat-text">Руководство компании</h4>
                         <ul class="list">
                             <li class="list_element">
                                 <p class="jackdaw-list"><?php include("img/vector-oring.php") ?></p>
@@ -248,7 +248,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 col-sm-12">
-                        <h4>Руководство подразделений</h4>
+                        <h4 class="fat-text">Руководство подразделений</h4>
                         <ul class="list">
                             <li class="list_element">
                                 <p class="jackdaw-list"><?php include("img/vector-oring.php") ?></p>
@@ -280,7 +280,7 @@
 
                 <div class="section_container-6_element row" for="slider2">
                     <div class="col-lg-6 col-sm-12">
-                        <h4>Бухгалтерия</h4>
+                        <h4 class="fat-text">Бухгалтерия</h4>
                         <ul class="list">
                             <li class="list_element">
                                 <p class="jackdaw-list"><?php include("img/vector-oring.php") ?></p>
@@ -309,7 +309,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 col-sm-12">
-                        <h4>Отдел кадров</h4>
+                        <h4 class="fat-text">Отдел кадров</h4>
                         <ul class="list">
                             <li class="list_element">
                                 <p class="jackdaw-list"><?php include("img/vector-oring.php") ?></p>
@@ -415,14 +415,14 @@
             <div class="section_content container-7">
                 <div class="section_container-7_wrapper row" id="hearer-table">
                     <div class="section_container-7_element colon1 col-12 col-md-8" id="colon1_hearer-table">
-                        <h4>Возможности</h4>
+                        <h4 class="fat-text">Возможности</h4>
                     </div>
                     <div class="section_container-7_element colon2 col-12 col-md-4 row" id="colon1_hearer-table">
                         <div class="colon2 col-12 col-md-6">
-                            <h4>ПРОФ</h4>
+                            <h4 class="fat-text">ПРОФ</h4>
                         </div>
                         <div class="colon3 col-12 col-md-6">
-                            <h4>КОРП</h4>
+                            <h4 class="fat-text">КОРП</h4>
                         </div>
                     </div>
                 </div>
@@ -669,8 +669,13 @@
                     <p class="section_container-8_img"><?php include("img/svg2.php") ?></p>
                     <p class="section_container-8_img"><?php include("img/svg2.php") ?></p>
                 </div>
-                <a class="previous" onclick="previousSlide()">&#10094;</a>
-                <a class="next" onclick="nextSlide()">&#10095;</a>
+
+                <div class="arrow" id="arrow_left">
+                    <a class="previous" onclick="previousSlide()"><?php include("img/arrow_left.php") ?></a>
+                </div>
+                <div class="arrow" id="arrow_right">
+                    <a class="next" onclick="nextSlide()"><?php include("img/arrow_right.php") ?></a>
+                </div>
                 <div class="section_container-8_element container-8_element-inputs">
                     <label for="container-8_button-1" class="section_container-8_submit first" oninput id="first"></label>
 

@@ -75,38 +75,60 @@ function timework(n) {
     color[slideIndex - 1].style.backgroundColor = "#FF6600";
 }
 
+//container-9
 
-
-/* Вызываем функцию, которая реализована ниже: */
-showSlides(slideIndex);
+showeSlides(slideIndex);
 
 function nextSlide() {
-    showSlide(slideIndex += 1);
+    showeSlides(slideIndex += 1);
 }
+
 
 function previousSlide() {
-    showSlide(slideIndex -= 1);
+    showeSlides(slideIndex -= 1);
 }
 
 
+function currenteSlide(n) {
+    showeSlides(slideIndex = n);
+}
 
 
-function showSlide(n) {
-    let slides = document.getElementsByClassName("item");
+function showeSlides(n) {
 
-    if (n > slides.length) {
+    let img = document.getElementsByClassName("section_container-8_img");
+    let color = document.getElementsByClassName("section_container-8_submit");
+
+    if (n > img.length) {
         slideIndex = 1
     }
     if (n < 1) {
-        slideIndex = slides.length
+        slideIndex = img.length
     }
 
-    for (let slide of slides) {
+    for (let slide of img) {
         slide.style.display = "none";
     }
 
-    slides[slideIndex - 1].style.display = "block";
+
+    if (n > color.length) {
+        slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = color.length
+    }
+
+    for (let slide of color) {
+        slide.style.backgroundColor = "#999999";
+    }
+
+
+    img[slideIndex - 1].style.display = "block";
+    color[slideIndex - 1].style.backgroundColor = "#FF6600";
 }
+
+/*########################*/
+
 
 // $(document).ready(function(){
 //     $('.section_container-8_element').slick({
