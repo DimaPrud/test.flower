@@ -14,17 +14,17 @@
             <footer id="foot">
                 <div class="bottomF">
                     <nav class="footerNav">
-                        <a href="body.php" class="footerNavP" id="futP1">ГЛАВНАЯ</a>
+                        <a href="index.php" class="footerNavP" id="futP1">ГЛАВНАЯ</a>
                         <span class="footerNavS"></span>
-                        <a href="body.php" class="footerNavP" id="futP2">ПОДОБРАТЬ ПЕРСОНАЛ</a>
+                        <a href="index.php" class="footerNavP" id="futP2">ПОДОБРАТЬ ПЕРСОНАЛ</a>
                         <span class="footerNavS"></span>
-                        <a href="body.php" class="footerNavP" id="futP3">ЦЕНЫ</a>
+                        <a href="index.php" class="footerNavP" id="futP3">ЦЕНЫ</a>
                         <span class="footerNavS"></span>
-                        <a href="body.php" class="footerNavP" id="futP4">ГЛАВНАЯ</a>
+                        <a href="index.php" class="footerNavP" id="futP4">ГЛАВНАЯ</a>
                         <span class="footerNavS"></span>
-                        <a href="body.php" class="footerNavP" id="futP5">ПОДОБРАТЬ ПЕРСОНАЛ</a>
+                        <a href="index.php" class="footerNavP" id="futP5">ПОДОБРАТЬ ПЕРСОНАЛ</a>
                         <span class="footerNavS"></span>
-                        <a href="body.php" class="footerNavP" id="futP6">ЦЕНЫ</a>
+                        <a href="index.php" class="footerNavP" id="futP6">ЦЕНЫ</a>
                     </nav>
                 </div>
                 <div class="footerDiv">

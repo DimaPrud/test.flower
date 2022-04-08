@@ -83,7 +83,7 @@
                 </div>
             </div>
             <div id="headImg">
-                <a href="http://test.flower-bottle.ru/uniofweb/body.php" id="navHeadImg"></a>
+                <a href="http://flowers3.beget.tech/index.php" id="navHeadImg"></a>
             </div>
             <nav class="headerNav">
                 <ul class="navDiv">
@@ -91,7 +91,7 @@
                     <li class="navHeadP"><a href="#" class="navHS">ГЛАВНАЯ</a>
                         <ul class="navUl"></ul></li>
 
-                    <li class="navHeadP"><a href="http://test.flower-bottle.ru/uniofweb/body2.php" class="navHS" id="navNav">ПОДОБРАТЬ ПЕРСОНАЛ</a>
+                    <li class="navHeadP"><a href="http://flowers3.beget.tech/body2.php" class="navHS" id="navNav">ПОДОБРАТЬ ПЕРСОНАЛ</a>
                         <ul class="navUl">
                             <li class="ulLi"><a href="#" class="liP">О нас</a></li>
                             <li class="ulLi"><a href="#" class="liP">Задать вопрос</a></li>
@@ -134,3 +134,8 @@
                 <input type="radio" name="radio" class="navInput" id="i5" oninput=action5()>
                 <input type="radio" name="radio" class="navInput" id="i6" oninput=action6()>
             </nav>
+
+
+
+
+
