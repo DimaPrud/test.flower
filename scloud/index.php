@@ -656,11 +656,11 @@
             <div class="section_content gallery">
 
                 <div class="gallery_element">
-                    <img src="image/gallery/1.svg" alt="" data-image />
-                    <img src="image/gallery/1.svg" alt="" data-image />
-                    <img src="image/gallery/1.svg" alt="" data-image />
-                    <img src="image/gallery/1.svg" alt="" data-image />
-                    <img src="image/gallery/1.svg" alt="" data-image />
+                    <img src="image/gallery/1.svg" alt="" data-image="1" class="gallery_image"/>
+                    <img src="image/gallery/1.svg" alt="" data-image="2" class="gallery_image"/>
+                    <img src="image/gallery/1.svg" alt="" data-image="3" class="gallery_image"/>
+                    <img src="image/gallery/1.svg" alt="" data-image="4" class="gallery_image"/>
+                    <img src="image/gallery/1.svg" alt="" data-image="5" class="gallery_image"/>
                 </div>
 
                 <div class="arrow" id="arrow_left">
