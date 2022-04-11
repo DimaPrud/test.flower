@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ebb0f5a3-6764-4b72-a6eb-cca3d50ab596" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../scloud/image/apple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/arrow_left.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/arrow_right.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/entrance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/googl_play.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_for_table/clock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_for_table/headphones.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_for_table/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_for_table/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_for_table/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_for_table/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_for_table/kube.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_for_table/plus-circle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_for_table/rub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_net/fb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_net/inst.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_net/ok.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_net/vk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/image_net/youtube.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/interested/book.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/interested/files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/interested/union.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/jackdaw.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/logo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/logo_footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/magnifying_glass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/minus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/svg1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/svg2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/svg3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/vector-green.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/vector-oring.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/image/vector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/script/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/style/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scloud/style/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/apple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/arrow_left.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/arrow_right.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/entrance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/googl_play.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_for_table/clock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_for_table/headphones.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_for_table/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_for_table/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_for_table/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_for_table/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_for_table/kube.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_for_table/plus-circle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_for_table/rub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_net/fb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_net/inst.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_net/ok.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_net/vk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/image_net/youtube.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_for_table/clock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_for_table/headphones.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_for_table/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_for_table/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_for_table/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_for_table/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_for_table/kube.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_for_table/plus-circle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_for_table/rub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_net/fb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_net/inst.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_net/ok.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_net/vk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_net/youtube.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/interested/book.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/interested/files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/interested/union.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/jackdaw.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/logo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/logo_footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/magnifying_glass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/minus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/svg1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/svg2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/svg3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/vector-green.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/vector-oring.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/vector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../scloud/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/script/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/script/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scloud/script/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/style/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/style/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/style/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/style/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/style/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/style/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/style/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/style/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/style/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../scloud/style/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scloud/style/pc_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../scloud/style/pc_style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="27bxtyBkYddCf8nH1WYrk3V6dll" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebb0f5a3-6764-4b72-a6eb-cca3d50ab596" name="Changes" comment="" />
+      <created>1649602804708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649602804708</updated>
+      <workItem from="1649602806138" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
