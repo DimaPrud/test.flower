@@ -959,13 +959,15 @@
                 </div>
         </section>
         <footer class="footer">
-            <div class="footer_content row">
+            <div class="footer_content container">
+                <div class="row">
                     <div class="footer_content_element footer-element1 col-md-6">
                         <p><a href="#" class="footer-link">Оферта </a>&#160;&#160;&#160;|&#160;&#160;&#160;<a href="#" class="footer-link"> Политика конфиденциальности</a></p>
                     </div>
                     <div class="footer_content_element footer-element2 col-12 col-md-6">
                         <p>© 2019 scloud.ru ООО "СервисКлауд"</p>
                     </div>
+                </div>
             </div>
         </footer>
     </body>
