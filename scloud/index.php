@@ -215,7 +215,7 @@
         <div class="tabs-content_element row action" data-href="tab1">
             <div class="col-lg-6 col-sm-12">
                 <h4 class="fat-text">Руководство компании</h4>
-                <ul class="list">
+                <ul class="tab-list">
                     <li class="list_element">
                         <p class="jackdaw-list"><?php include("image/vector-oring.php") ?></p>
                         <p class="text">Качество персонала</p>
@@ -237,7 +237,7 @@
 
             <div class="col-lg-6 col-sm-12">
                 <h4 class="text_title fat-text">Руководство подразделений</h4>
-                <ul class="list">
+                <ul class="tab-list">
                     <li class="list_element">
                         <p class="jackdaw-list"><?php include("image/vector-oring.php") ?></p>
                         <p class="text">Квалификация персонала</p>
@@ -269,7 +269,7 @@
         <div class="tabs-content_element row" data-href="tab2">
             <div class="col-lg-6 col-sm-12">
                 <h4 class="fat-text">Бухгалтерия</h4>
-                <ul class="list">
+                <ul class="tab-list">
                     <li class="list_element">
                         <p class="jackdaw-list"><?php include("image/vector-oring.php") ?></p>
                         <p class="text">Структура начисления зарплаты</p>
@@ -299,7 +299,7 @@
 
             <div class="col-lg-6 col-sm-12">
                 <h4 class="text_title fat-text">Отдел кадров</h4>
-                <ul class="list">
+                <ul class="tab-list">
                     <li class="list_element">
                         <p class="jackdaw-list"><?php include("image/vector-oring.php") ?></p>
                         <p class="text">Качетственный состав работников</p>
@@ -318,7 +318,7 @@
 
         <div class="tabs-content_element multiple-items row" data-href="tab3">
             <div class="col-lg-6 col-sm-12">
-                <ul class="list">
+                <ul class="tab-list">
                     <li class="list_element">
                         <p class="jackdaw-list"><?php include("image/vector-oring.php") ?></p>
                         <p class="text">Начисленная зарплата</p>
@@ -334,7 +334,7 @@
                 </ul>
             </div>
             <div class="col-lg-6 col-sm-12">
-                <ul class="list">
+                <ul class="tab-list">
                     <li class="list_element">
                         <p class="jackdaw-list"><?php include("image/vector-oring.php") ?></p>
                         <p class="text">Заявки на обучение</p>
@@ -353,7 +353,7 @@
 
         <div class="tabs-content_element row" data-href="tab4">
             <div class="col-lg-6 col-sm-12">
-                <ul class="list">
+                <ul class="tab-list">
                     <li class="list_element">
                         <p class="jackdaw-list"><?php include("image/vector-oring.php") ?></p>
                         <p class="text">Потребность в кадрах</p>
@@ -377,7 +377,7 @@
                 </ul>
             </div>
             <div class="col-lg-6 col-sm-12">
-                <ul class="list">
+                <ul class="tab-list">
                     <li class="list_element">
                         <p class="jackdaw-list"><?php include("image/vector-oring.php") ?></p>
                         <p class="text">Кадровый план</p>
@@ -957,18 +957,15 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
         <footer class="footer">
             <div class="footer_content row">
-<!--                <div class="">-->
                     <div class="footer_content_element footer-element1 col-md-6">
                         <p><a href="#" class="footer-link">Оферта </a>&#160;&#160;&#160;|&#160;&#160;&#160;<a href="#" class="footer-link"> Политика конфиденциальности</a></p>
                     </div>
                     <div class="footer_content_element footer-element2 col-12 col-md-6">
                         <p>© 2019 scloud.ru ООО "СервисКлауд"</p>
                     </div>
-<!--                </div>-->
             </div>
         </footer>
     </body>

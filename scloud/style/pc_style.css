@@ -336,6 +336,7 @@ h2 {
     max-width: 1200px;
     min-height: 100%;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .section h3 {
@@ -636,7 +637,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-.list {
+.tab-list {
     padding-left: 0;
     padding-top: 0;
 }
@@ -1514,7 +1515,7 @@ h2 {
 .info-strings_float {
     float: left;
     color: #FF6600;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .container-links {
