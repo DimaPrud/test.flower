@@ -192,6 +192,12 @@ h2 {
     height: 17px;
 }
 
+.search{
+    position: absolute;
+    right: 0;
+    top: 84px;
+}
+
 .tel {
     margin: 0 0 0 3%;
     line-height: 84px;
@@ -1786,7 +1792,7 @@ h5 {
         margin: 0;
         position: relative !important;
         top: -10px;
-        left: 20px;
+        left: 6%;
     }
 
     .contact-info {
